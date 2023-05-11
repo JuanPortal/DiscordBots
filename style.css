@@ -35,6 +35,11 @@ h3 {
     font-weight: 300;
 }
 
+header p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
 /* SECTION */
 
 section {
@@ -154,6 +159,11 @@ footer span:hover {
         padding: 0 15px;
     }
 
+    header p {
+        font-size: 14px;
+        font-weight: 200;
+    }
+
     .container {
         box-sizing: border-box;
         grid-template-columns: repeat(2, 1fr);
@@ -195,6 +205,11 @@ footer span:hover {
         font-size: 15px;
         font-weight: 300;
         padding: 0 15px;
+    }
+
+    header p {
+        font-size: 14px;
+        font-weight: 200;
     }
 
     .container {
