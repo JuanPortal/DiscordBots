@@ -53,7 +53,7 @@ section {
     width: min(1500px, 80%);
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
@@ -84,7 +84,13 @@ section {
 }
 
 .bot-card:nth-child(4) {
-    background: url('./media/Countdown.png');
+    background: url('./media/Timer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bot-card:nth-child(5) {
+    background: url('./media/PSV.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -167,9 +173,8 @@ footer span:hover {
     .container {
         box-sizing: border-box;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        width: 100%;
-        padding: 40px 0;
+        grid-template-rows: repeat(2, 1fr) 1fr;
+        gap: 30px;
     }
 
     .bot-description h4 {
@@ -214,7 +219,7 @@ footer span:hover {
 
     .container {
         box-sizing: border-box;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1fr);
         width: 100%;
     }
@@ -238,6 +243,10 @@ footer span:hover {
     }
 
     .bot-card:nth-child(4) {
+        background-position: center;
+    }
+
+    .bot-card:nth-child(5) {
         background-position: center;
     }
 
@@ -272,7 +281,7 @@ footer span:hover {
 
     .container {
         box-sizing: border-box;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1fr);
         width: 100%;
     }
@@ -295,6 +304,10 @@ footer span:hover {
     }
 
     .bot-card:nth-child(4) {
+        background-position: center;
+    }
+
+    .bot-card:nth-child(5) {
         background-position: center;
     }
 

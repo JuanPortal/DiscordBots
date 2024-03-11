@@ -19,3 +19,7 @@ document.querySelector('.bot-card:nth-child(3)').addEventListener('click', () =>
 document.querySelector('.bot-card:nth-child(4)').addEventListener('click', () => {
     window.open('https://discord.com/api/oauth2/authorize?client_id=812473364844511273&permissions=68608&scope=bot', '_blank');
 })
+
+document.querySelector('.bot-card:nth-child(5)').addEventListener('click', () => {
+    window.open('https://discord.com/oauth2/authorize?client_id=1192355600714178590&permissions=274878023680&scope=bot', '_blank');
+})
